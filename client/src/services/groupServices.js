@@ -59,6 +59,8 @@ export const getGroupExpenseService = async(data, setAlert, setAlertMessage) => 
     }
 }
 
+//changes made 
+
 export const getGroupSettleService = async(data, setAlert, setAlertMessage) => {
     try{
         const settle_details = await api.getSettle(data)
