@@ -6,7 +6,7 @@ import LogoOnlyLayout from './layouts/LogoOnlyLayout';
 //configfile import 
 import configData from "./config.json"
 
-//Pages 
+
 import Login from './components/login';
 import Register from './components/register'
 import Page404 from './components/Page404';

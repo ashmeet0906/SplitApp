@@ -8,6 +8,9 @@ var cors = require('cors')
 const path = require('path');
 dotenv.config()
 
+
+
+
 var usersRouter = require('./routes/userRouter')
 var groupRouter = require('./routes/groupRouter')
 var expenseRouter = require('./routes/expenseRouter')
