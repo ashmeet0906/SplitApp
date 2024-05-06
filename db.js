@@ -7,4 +7,5 @@ const mongoDB = async()=>{
         console.log("connected");
 });
 }
+//this is a js file. 
 module.exports = mongoDB;
