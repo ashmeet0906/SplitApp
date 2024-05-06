@@ -37,7 +37,7 @@ app.all('*', (req, res) => {
       })
 })
 
-const port = process.env.PORT || 3002
+const port = process.env.PORT || 3001
 app.listen(port, (err) => {
     console.log(`Server started in PORT | ${port}`)
     logger.info(`Server started in PORT | ${port}`)
